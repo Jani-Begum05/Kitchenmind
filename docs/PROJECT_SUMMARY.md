@@ -9,13 +9,13 @@
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 
 KitchenMind is a comprehensive web-based kitchen management system designed to reduce food waste, simplify meal planning, and provide personalized nutrition tracking. The application combines intelligent inventory management with user-specific dietary preferences to create a seamless cooking experience.
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1. **Reduce Food Waste**: Track ingredient expiry dates and alert users before items spoil
 2. **Personalized Experience**: Tailor recipe recommendations based on user allergies, dietary preferences, and nutritional goals
@@ -25,52 +25,52 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 🌟 Key Features Implemented
+##  Key Features Implemented
 
 ### Phase 1: Core Functionality
-✅ User authentication (register, login, logout)  
-✅ Secure password hashing with bcrypt  
-✅ Session-based authorization  
-✅ User-specific data isolation  
+1. User authentication (register, login, logout)  
+2. Secure password hashing with bcrypt  
+3. Session-based authorization  
+4. User-specific data isolation  
 
 ### Phase 2: Inventory Management
-✅ CRUD operations for ingredients  
-✅ Expiry date tracking  
-✅ Category-based organization  
-✅ Search and filter functionality  
-✅ "Rescue My Food" expiry alerts  
+1. CRUD operations for ingredients  
+2. Expiry date tracking  
+3. Category-based organization  
+4. Search and filter functionality  
+5. "Rescue My Food" expiry alerts  
 
 ### Phase 3: User Profiles
-✅ Customizable nutritional goals (calories, protein, carbs, fat)  
-✅ Allergy tracking  
-✅ Dietary preference selection (Vegetarian, Vegan, Keto, etc.)  
-✅ Serving size customization  
+1. Customizable nutritional goals (calories, protein, carbs, fat)  
+2. Allergy tracking  
+3. Dietary preference selection (Vegetarian, Vegan, Keto, etc.)  
+4. Serving size customization  
 
 ### Phase 4: Recipe & Meal Planning
-✅ Recipe browsing from external API  
-✅ Recipe filtering based on allergies  
-✅ Recipe filtering by dietary preferences  
-✅ Meal planning system (API endpoints)  
-✅ Shopping list generation (API endpoints)  
+1. Recipe browsing from external API  
+2. Recipe filtering based on allergies  
+3. Recipe filtering by dietary preferences  
+4. Meal planning system (API endpoints)  
+5. Shopping list generation (API endpoints)  
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### Technology Stack
 
 **Backend:**
-- Node.js with Express.js
-- SQLite database with better-sqlite3
-- bcryptjs for password hashing
-- express-session for session management
-- express-validator for input validation
+a. Node.js with Express.js
+b. SQLite database with better-sqlite3
+c. bcryptjs for password hashing
+d. express-session for session management
+e. express-validator for input validation
 
 **Frontend:**
-- EJS templating engine
-- Bootstrap 5 for responsive design
-- Vanilla JavaScript for client-side interactions
-- Bootstrap Icons
+a. EJS templating engine
+b. Bootstrap 5 for responsive design
+c. Vanilla JavaScript for client-side interactions
+d. Bootstrap Icons
 
 **External Services:**
 - TheMealDB API for recipe data
@@ -102,7 +102,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 📊 Software Engineering Methodologies Applied
+##  Software Engineering Methodologies Applied
 
 ### 1. Object-Oriented Analysis and Design (OOAD)
 
@@ -144,7 +144,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 
 1. **Password Security**
    - Bcrypt hashing with salt rounds = 10
@@ -171,14 +171,14 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 | Metric                    | Target      | Achieved |
 |---------------------------|-------------|----------|
-| Page Load Time            | < 2s        | ✅ ~1s   |
-| API Response Time         | < 500ms     | ✅ ~200ms|
-| Concurrent Users          | 100         | ✅ Yes   |
-| Database Query Time       | < 100ms     | ✅ ~50ms |
+| Page Load Time            | < 2s        |  ~1s   |
+| API Response Time         | < 500ms     |  ~200ms|
+| Concurrent Users          | 100         |  Yes   |
+| Database Query Time       | < 100ms     |  ~50ms |
 
 ---
 
-## 🧪 Testing Approach
+##  Testing Approach
 
 ### Manual Testing Performed
 
@@ -208,7 +208,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 📚 Documentation Delivered
+##  Documentation Delivered
 
 1. **Software Requirements Specification (SRS)**
    - OOAD Perspective (45 pages)
@@ -277,7 +277,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 ### Short-term (Next 3 months)
 
@@ -332,7 +332,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 💡 Challenges Faced and Solutions
+##  Challenges Faced and Solutions
 
 ### Challenge 1: User Data Isolation
 **Problem:** Ensuring users can only access their own data  
@@ -356,7 +356,7 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 📊 Project Statistics
+##  Project Statistics
 
 - **Total Lines of Code**: ~3,500
 - **Number of Files**: 25+
@@ -368,16 +368,16 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 ---
 
-## 🏆 Key Achievements
+##  Key Achievements
 
-1. ✅ **Complete User Authentication System** with secure password hashing
-2. ✅ **Comprehensive Inventory Management** with expiry tracking
-3. ✅ **Personalized User Profiles** with dietary preferences
-4. ✅ **Recipe Recommendation Engine** with allergy filtering
-5. ✅ **Meal Planning System** with shopping list generation
-6. ✅ **Detailed SRS Documentation** from both OOAD and SSAD perspectives
-7. ✅ **Responsive UI Design** working on mobile and desktop
-8. ✅ **RESTful API** with proper error handling
+1.  **Complete User Authentication System** with secure password hashing
+2.  **Comprehensive Inventory Management** with expiry tracking
+3.  **Personalized User Profiles** with dietary preferences
+4.  **Recipe Recommendation Engine** with allergy filtering
+5.  **Meal Planning System** with shopping list generation
+6.  **Detailed SRS Documentation** from both OOAD and SSAD perspectives
+7.  **Responsive UI Design** working on mobile and desktop
+8.  **RESTful API** with proper error handling
 
 ---
 
@@ -385,21 +385,21 @@ KitchenMind is a comprehensive web-based kitchen management system designed to r
 
 | Goal                              | Status | Notes                                    |
 |-----------------------------------|--------|------------------------------------------|
-| User Authentication               | ✅ 100%| Fully implemented with bcrypt            |
-| Ingredient Management             | ✅ 100%| CRUD + search/filter complete            |
-| User Profiles                     | ✅ 100%| All preference fields implemented        |
-| Recipe Recommendations            | ✅ 80% | API integration done, AI pending         |
-| Meal Planning                     | ✅ 90% | Backend complete, UI in progress         |
-| Shopping Lists                    | ✅ 90% | Backend complete, UI in progress         |
-| Nutrition Tracking                | ✅ 70% | Database ready, UI pending               |
-| SRS Documentation                 | ✅ 100%| Both OOAD and SSAD completed             |
-| Responsive Design                 | ✅ 100%| Mobile and desktop tested                |
+| User Authentication               |  100%| Fully implemented with bcrypt            |
+| Ingredient Management             |  100%| CRUD + search/filter complete            |
+| User Profiles                     |  100%| All preference fields implemented        |
+| Recipe Recommendations            |  80% | API integration done, AI pending         |
+| Meal Planning                     |  90% | Backend complete, UI in progress         |
+| Shopping Lists                    |  90% | Backend complete, UI in progress         |
+| Nutrition Tracking                |  70% | Database ready, UI pending               |
+| SRS Documentation                 |  100%| Both OOAD and SSAD completed             |
+| Responsive Design                 |  100%| Mobile and desktop tested                |
 
 **Overall Project Completion: 92%**
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 We would like to thank:
 
@@ -410,19 +410,19 @@ We would like to thank:
 
 ---
 
-## 📞 Contact Information
+##  Contact Information
 
 **Sai Mahidhar** (25MCMT29)  
 GitHub: [saimahidhar54](https://github.com/saimahidhar54)  
 Email: [Your Email]
 
 **Shaik Jani Begum** (25MCMT09)  
-GitHub: [Your GitHub]  
-Email: [Your Email]
+GitHub: [Jani-Begum05](https://github.com/Jani-Begum05)
+Email: [janibegum546@gmail.com]
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 
 KitchenMind successfully demonstrates the application of software engineering principles to solve a real-world problem. The project showcases:
 
@@ -436,10 +436,10 @@ The system is production-ready for personal use and provides a solid foundation 
 
 ---
 
-**Project Status: ✅ COMPLETE**  
+**Project Status:  COMPLETE**  
 **Submission Date: April 21, 2026**  
 **Grade: [To be determined]**
 
 ---
 
-*"Reducing food waste, one ingredient at a time." 🍳*
+*"Reducing food waste, one ingredient at a time." *
