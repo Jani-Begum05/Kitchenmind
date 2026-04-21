@@ -231,7 +231,7 @@ d. Bootstrap Icons
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 ### Technical Skills Gained
 
@@ -381,7 +381,7 @@ d. Bootstrap Icons
 
 ---
 
-## 🎯 Project Goals Achievement
+##  Project Goals Achievement
 
 | Goal                              | Status | Notes                                    |
 |-----------------------------------|--------|------------------------------------------|
