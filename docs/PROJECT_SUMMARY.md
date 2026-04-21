@@ -167,7 +167,7 @@ d. Bootstrap Icons
 
 ---
 
-## 📈 Performance Characteristics
+##  Performance Characteristics
 
 | Metric                    | Target      | Achieved |
 |---------------------------|-------------|----------|
